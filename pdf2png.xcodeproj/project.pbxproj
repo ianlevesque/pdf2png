@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C61BF7F13EE6E9700A85195 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C61BF7E13EE6E9700A85195 /* CoreServices.framework */; };
 		3C61BF8213EE6E9700A85195 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C61BF8113EE6E9700A85195 /* main.c */; };
 		3C61BF8413EE6E9700A85195 /* pdf2png.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C61BF8313EE6E9700A85195 /* pdf2png.1 */; };
+		3CF6AEA013EE701A00C53FD0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF6AE9F13EE701A00C53FD0 /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,9 +27,9 @@
 
 /* Begin PBXFileReference section */
 		3C61BF7A13EE6E9700A85195 /* pdf2png */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pdf2png; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C61BF7E13EE6E9700A85195 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		3C61BF8113EE6E9700A85195 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3C61BF8313EE6E9700A85195 /* pdf2png.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = pdf2png.1; sourceTree = "<group>"; };
+		3CF6AE9F13EE701A00C53FD0 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C61BF7F13EE6E9700A85195 /* CoreServices.framework in Frameworks */,
+				3CF6AEA013EE701A00C53FD0 /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 		3C61BF7D13EE6E9700A85195 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3C61BF7E13EE6E9700A85195 /* CoreServices.framework */,
+				3CF6AE9F13EE701A00C53FD0 /* ApplicationServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +104,7 @@
 		3C61BF7113EE6E9700A85195 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Ephemeron Industries";
 			};
 			buildConfigurationList = 3C61BF7413EE6E9700A85195 /* Build configuration list for PBXProject "pdf2png" */;
@@ -215,6 +216,7 @@
 				3C61BF8913EE6E9700A85195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
